@@ -1,0 +1,15 @@
+.products-comp {
+  margin: 40px auto 150px;
+  height: 100%;
+  width: 100%;
+  max-width: 1141px;
+  display: inline-flex;
+  flex-flow: wrap;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .products-comp {
+    margin-top: 10px;
+  }
+}
